@@ -51,7 +51,7 @@ export default function LoginPage() {
             id="password"
             name="password"
             type="password"
-            placeholder="••••••••"
+            placeholder="•••••••••"
             required
             autoComplete="current-password"
           />
