@@ -1,0 +1,32 @@
+<svg
+  width="32"
+  height="32"
+  viewBox="0 0 40 40"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <style>
+    path.fill-primary { fill: #171717; }
+    path.fill-bg { fill: #ffffff; }
+    rect.bg-primary { fill: #171717; }
+    @media (prefers-color-scheme: dark) {
+      path.fill-primary { fill: #ffffff; }
+      path.fill-bg { fill: #171717; }
+      rect.bg-primary { fill: #ffffff; }
+    }
+  </style>
+  <rect width="40" height="40" rx="10" class="bg-primary" fill-opacity="0.1" />
+  <path
+    d="M10 8C10 6.89543 10.8954 6 12 6H20C24.4183 6 28 9.58172 28 14C28 16.4 27.0627 18.5731 25.5383 20.1646C28.1502 21.6548 30 24.5139 30 27.8C30 32.5523 26.0751 34 22 34H12C10.8954 34 10 33.1046 10 32V8Z"
+    class="fill-primary"
+    fill-opacity="0.9"
+  />
+  <path
+    d="M16 14H20C21.1046 14 22 13.1046 22 12C22 10.8954 21.1046 10 20 10H16V14Z"
+    class="fill-bg"
+  />
+  <path
+    d="M16 26H22C23.6569 26 25 24.6569 25 23C25 21.3431 23.6569 20 22 20H16V26Z"
+    class="fill-bg"
+  />
+</svg>
